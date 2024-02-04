@@ -1,9 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 
 export function Header() {
-
-  
-
   return (
     <View style={styles.header}>
       <Text style={styles.title}>TO-DO LIST</Text>

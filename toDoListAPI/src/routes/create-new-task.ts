@@ -1,6 +1,6 @@
 import { FastifyInstance } from "fastify";
 import { prisma } from "../lib/prisma";
-import { randomUUID } from "crypto"; 
+import { randomUUID } from "crypto";
 import { z } from "zod";
 
 export async function createNewTask(app: FastifyInstance) {
